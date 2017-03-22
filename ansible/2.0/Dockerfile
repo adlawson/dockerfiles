@@ -9,4 +9,4 @@ RUN pip install ansible==$ANSIBLE_VERSION && \
 VOLUME /src
 WORKDIR /src
 
-ENTRYPOINT ["ansible-vault"]
+ENTRYPOINT ["ansible"]
