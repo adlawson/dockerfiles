@@ -4,7 +4,7 @@ You probably want to use `adlawson/sbt` instead, but this is for cases where I'm
 working with the scala compiler directly.
 
 ```bash
-> docker build -t adlawson/scala:2.12 .
+> docker build -t adlawson/scala:latest -t adlawson/scala:2.12 -t adlawson/scala:2.12.3 .
 ```
 
 ```bash
