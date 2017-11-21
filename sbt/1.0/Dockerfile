@@ -1,7 +1,7 @@
 FROM openjdk:8
 MAINTAINER Andrew Lawson <https://adlawson.com>
 
-ENV SBT_VERSION=1.0.1
+ENV SBT_VERSION=1.0.2
 
 RUN curl -L -o sbt-$SBT_VERSION.deb http://dl.bintray.com/sbt/debian/sbt-$SBT_VERSION.deb && \
     dpkg -i sbt-$SBT_VERSION.deb && \

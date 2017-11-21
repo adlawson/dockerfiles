@@ -1,7 +1,7 @@
 # Scala SBT 1.0
 
 ```bash
-> docker build -t adlawson/sbt:latest -t adlawson/sbt:1.0 -t adlawson/sbt:1.0.1 .
+> docker build -t adlawson/sbt:latest -t adlawson/sbt:1.0 -t adlawson/sbt:1.0.3 .
 ```
 
 ```bash
